@@ -76,6 +76,13 @@
   top: 64px;
   background-color: #2f80ed;
 }
+.content{
+
+}
+.discription{
+
+}
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
