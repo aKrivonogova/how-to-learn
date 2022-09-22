@@ -76,14 +76,51 @@
   top: 64px;
   background-color: #2f80ed;
 }
-.content{
 
+.content {}
+
+.discription {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;  
 }
-.discription{
-
+.two-columns {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
 }
-
-
+.two-colums__brief{
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+  width: 175px;
+  margin: 0;
+}
+.two-colums__main-text{
+  min-width: 784px;
+  width: 80%;
+  min-width: 784px;
+}
+.two-colums__paragraph{
+  margin-top: 0;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+  margin-bottom: 30px;
+  min-width: 784px;
+}
+.span-accent{
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 600;
+}
+.two-colums__paragraph:last-of-type{
+  margin-bottom: 0;
+}
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
